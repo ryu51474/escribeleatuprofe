@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./wsp.css">
+    <title>whatsapp desde web</title>
+</head>
+
+<body>
+    <!-- este es el logo -->
+    <div>
+        <img class="logo" id="logo_whatsapp" src="./wspimg.svg" alt="logo_wsp">
+        <!-- <img src="https://hieloandino.cl/wp-content/uploads/2019/09/whatsapp-logo-png-hd-2.png" alt="logo_whatsapp "> -->
+    </div>
+    <!--este es el titulo-->
+    <div class="titulo">
+        <h1 id="titulo1">Escríbele a tu profesor</h1>
+    </div><br>
+    <!--este es el cuerpo-->
+    <div class="datos">
+        <label for="profesor" id="datos_etiqueta1">Selecione al profesor</label><br>
+        <select name="profesor" id="datos_profesor">
+                <option value=" " id="opcion1">Seleccione a un profesor...</option>
+                <option value="56953310676">Mauricio Arroyo - Inglés</option>
+                <option value="56982930017">Priscila Kesternitch - Inglés</option>
+                <option value="56963883694">Cristian Valenzuela - Inglés</option>
+                <option value="56968402493">Jaime Sandoval - Hotelería</option>
+                <option value="56990503872">Huacolda Ainol - Matemática</option>
+                <option value="56982317831">Yerel González - Profesora Diferencial</option>
+                <option value="56942643819">Virginia Quijon - Atención de Párvulos</option>
+                <option value="56940419326">Mario Fernandez - Inspector General</option>
+                <option value="56987054267">Danitza Cuevas Salazar</option>
+                <option value="56972441912">Gerson Castillo - Atención de Enfermería</option>
+                <option value="56977093819">Francisco Castillo - Historia</option>
+                <option value="56976041040">Daniela Quezada - Profesora Diferencial</option>
+                <option value="56968792751">Cristian  Aravena - Gastronomía</option>
+                <option value="56977942356">Cecilia Aburto - Matemáticas</option>
+                <option value="56982236711">Carla Sáez - Matemaáticas</option>
+                <option value="56994683956">Ana Pacheco - Jefe UTP</option>
+                <option value="56990404776">Alberto Santis - Profesor de Educacion Fisica</option>
+                <option value="56966088600">Pamela Tejo - Atención enfermeria
+                <option value="56976971221">Maritza Valdes - Matemática</option>
+                <option value="56996147415">Fernando Villegas - Historia</option>
+                <option value="56966274059">Claudio Vallejos - Lenguaje</option>
+                </option>
+            </select><br>
+        <label for="mensajes" id="datos_etiqueta2">Escribe el mensaje al profesor</label><br>
+        <input type="text" id="datos_mensaje" placeholder="Escribe aquí tu mensaje "><br>
+    <button id="datos_boton">Enviar Mensaje</button>
+    </div>
+</body>
+<script src="./wsp.js ">
+</script>
+
+</html>

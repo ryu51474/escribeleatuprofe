@@ -1,0 +1,128 @@
+body {
+    background-color: #075E54
+}
+
+div {
+    text-align: center;
+    object-fit: contain;
+}
+
+button {
+    border-color: transparent;
+    border-radius: 50px;
+    background-color: aqua;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+    color: aqua;
+}
+
+#datos_etiqueta1,
+#datos_etiqueta2 {
+    color: aqua;
+}
+
+#datos_mensaje {
+    margin: auto;
+    min-width: 20em;
+    min-height: 10em;
+}
+
+ ::placeholder {
+    color: #075E54;
+    text-align: center;
+    font-style: italic;
+}
+
+img.logo {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 15%;
+    min-width: 15%;
+    max-height: 20%;
+    max-width: 20%;
+}
+
+
+/*etiqueta.clase*/
+
+
+/*   p {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    /*width:50%
+    }
+
+    
+    img.logo{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:10%;
+    background-color:green
+    }
+    
+    h1.titulo, label, #subtitulo{
+    text-align:center;
+    color:#128C7E;
+    margin-left:auto;
+    margin-right:auto;
+    /*width:50%;
+    max-width:300px;
+    /*background-color:ligthlime;
+    border-radius:25px
+    }
+     
+    div.formulario {
+    text-align:center;
+    color:green;
+    }
+
+    #explicacion {
+    text-align:left;
+    color:lightgreen;
+     background-color:lime;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50em;
+    /*width:50%;
+    max-width:300px
+    }
+   
+
+    #profesores{
+    background-color: red;
+    color:lightgreen;
+    width:50em;
+    height: 5em;
+    }
+    
+    #mensaje {
+    margin-left:auto;
+    margin-right:auto;
+    min-height:250px;
+    min-width:70em;
+    }
+    
+    
+    
+    #enviar{
+    font-size:1.5em;
+    min-width:40em;
+    min-height:90px;
+    border-radius:35%;
+    color:snow;
+    background-color:lightgreen;
+    }
+    
+    
+    
+    ::placeholder {
+    text-align:center;
+    color:green;
+    }
+
+
+    */
